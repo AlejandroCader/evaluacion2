@@ -3,7 +3,6 @@ package com.app.evaluacion2.models.domain;
 public class ItemFactura {
     private Producto producto;
     private Integer cantidad;
-
     private Categoria categoria;
 
     public ItemFactura(Producto producto, Integer cantidad, Categoria categoria) {
